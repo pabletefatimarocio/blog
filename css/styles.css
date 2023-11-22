@@ -146,6 +146,8 @@ header{
     width: 1200px;
     margin: auto;
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -182,9 +184,47 @@ article p{
     color: #3c3c3c;
 }
 
-
 article img{
     width: 100%;
     margin-top: 20px;
 }
 
+/*aside delos articulos*/
+
+.container-aside aside{
+    width: 320px;
+    box-shadow: 0 0 20px -20px black;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+}
+
+.container-aside aside img{
+    width: 100%;
+}
+
+.container-aside aside h2,
+.container-aside aside p {
+    margin: 20px;
+    padding: 0px 20px;
+}
+
+
+.container-aside aside button{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 50px;
+    font-size: 16px;
+    background: #46a2fd;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.container-aside aside button:hover{
+    opacity: 0.9;
+}
